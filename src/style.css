@@ -1,0 +1,28 @@
+.active {
+    border: 2px solid var(--bs-blue);
+    border-radius: 5px;
+}
+.billboard-container {
+    width: 100%;
+
+    >img {
+        width: 100%;
+        border-radius: 10px;
+        height: 380px;
+    }
+}
+.blog-card {
+   >img{
+    height: 200px;
+   
+   }
+
+   >.card-body{
+    > .details{
+        white-space: nowrap;
+        text-overflow: hidden;
+        text-overflow: ellipsis;
+    }
+   }
+     
+}
